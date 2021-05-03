@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6BB88A"
+    android:orientation="vertical"
+    tools:ignore="ExtraText">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"m
+
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/nameText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Your Name ?"
+        android:textColor="#F44336"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/massageText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Talk to Me"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/SendButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#9C27B0"
+        android:text="Send"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/HintButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#9C27B0"
+        android:text="Hint"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/ClearButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#9C27B0"
+        android:text="Clear Converstoin"
+        android:textStyle="bold|italic" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#009688"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/hint2Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="#673AB7"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/hint0Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="#673AB7"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/hint1Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="#673AB7"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/errorText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
